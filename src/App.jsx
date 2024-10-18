@@ -1,16 +1,15 @@
-import { useState } from 'react'
+import React from 'react';
 
-import './App.css'
-
+import './App.css';
+import './index.css';
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      
-      
-    </>
+    <p className="text-sm text-zinc-100 font-bold underline">
+    Hello world!
+  </p>
   )
 }
 
-export default App
+export default App;
