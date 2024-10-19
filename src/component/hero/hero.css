@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Escuela';
+    src: url('../../assets/OTF/Escuela-Light.otf') format('truetype'),
+         url('../../assets/OTF/Escuela-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.hero{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 30px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    font-family: 'Escuela', sans-serif;
+}
+.hand{
+    width: 10.26vw;
+    margin: auto 0;
+}
+.hero h1{
+    font-size: 4.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #171717;
+    line-height: 70px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+.orange-text{
+    color: #FD853A ;
+}
+.quote{
+    position: absolute;
+    top: 45%;
+    width: 425px;
+    align-self: flex-start;
+    padding: 10px 20px;
+}
+.quote p{
+    font-family: Escuela;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    padding: 0px 10px;
+}
+.hero h2{
+    font-family: Escuela;
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    margin: 10px 0;
+}
+.hero h2 .small-text{
+    font-size: 20px;
+    line-height: 10px !important;
+    width: 100%;
+}
+.semi-circle{
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    bottom: -1%;
+    background-color: #D92D20;
+    clip-path: circle(48.1% at 51% 89%);
+}
+.semi-circle, .portrait{
+    position: absolute;
+    bottom: -1%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+.project{
+    clip-path: polygon(0 0, 100% 0, 100% 68%, 60% 68%, 60% 100%, 0 100%);
+}

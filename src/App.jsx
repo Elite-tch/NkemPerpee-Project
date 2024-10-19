@@ -2,13 +2,12 @@ import React from 'react';
 
 import './App.css';
 import './index.css';
+import { LandingPage } from './pages/LandingPage/LandingPage';
 function App() {
 
 
   return (
-    <p className="text-sm text-zinc-100 font-bold underline">
-    Hello world!
-  </p>
+   <LandingPage/>
   )
 }
 
