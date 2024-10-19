@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-bg{
+background-color: #171717;
+
+}
+
+
+
+.active{
+
+    color: #FD853A;    
+}
+.bg-active{
+
+ background-color: #FD853A;   
+}
+
+
+.anchor{
+color: #7FACFF;
+}
+

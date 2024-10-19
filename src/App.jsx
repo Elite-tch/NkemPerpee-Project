@@ -1,14 +1,15 @@
 import React from 'react';
-
+import Experience from "./component/experience"
 import './App.css';
 import './index.css';
 function App() {
 
 
   return (
-    <p className="text-sm text-zinc-100 font-bold underline">
-    Hello world!
-  </p>
+    <div>
+<Experience />
+
+    </div>
   )
 }
 
