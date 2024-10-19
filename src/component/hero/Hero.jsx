@@ -1,6 +1,7 @@
 
 import { NavBar } from '../navbar/NavBar'
 import './hero.css'
+import Quote from '../../assets/quote-up.png'
 
 export const Hero = () => {
   return (
@@ -12,7 +13,7 @@ export const Hero = () => {
         </h1>
 
         <div className="quote">
-      <div className="top"><img src="" alt="text" />
+      <div className="top"><img src={Quote} alt="text" />
       <p>Nkem is a curious Product Designer always ready and open to challenges with a
          demonstrated history of success. Excellent at communication
           and hove developed proficiency
