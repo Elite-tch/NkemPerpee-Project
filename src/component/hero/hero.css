@@ -10,27 +10,34 @@
     width: 100%;
     height: auto;
     min-height: 100vh;
-    padding: 30px 30px 0px 30px;
+    padding: 80px 30px 0px 30px;
     display: flex;
     align-items: center;
     position: relative;
     flex-direction: column;
     font-family: 'Escuela', sans-serif;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
 .hand{
     width: 10.26vw;
     margin: auto 0;
 }
 .hero h1{
-    font-size: 4.8rem;
+    font-size: 4.5rem;
     font-weight: 600;
     text-align: center;
     color: #171717;
-    line-height: 70px;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 5%;
-    margin-top: 1%;
+    line-height: 80px;
+    padding: 10px 30px;
+    width: 100%;
+    min-width: 350px;
+    max-width: 1000px;
 }
 .orange-text{
     color: #FD853A ;
@@ -38,9 +45,18 @@
 .quote{
     position: absolute;
     top: 45%;
-    width: 425px;
+    width: 30%;
     align-self: flex-start;
     padding: 10px 20px;
+    min-width: 350px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top img{
+    align-self: flex-start;
 }
 .quote p{
     font-family: Escuela;
@@ -53,7 +69,7 @@
 }
 .hero h2{
     font-family: Escuela;
-    font-size: 3.8rem;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 40px;
     letter-spacing: -0.015em;
@@ -65,14 +81,33 @@
     line-height: 10px !important;
     width: 100%;
 }
+.bottom h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.years{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
 .semi-circle{
-    width: 700px;
-    height: 350px;
+    width: 650px;
+    height: 330px;
     position: absolute;
     bottom: -1%;
     background-color: #D92D20;
     clip-path: circle(48.1% at 51% 89%);
+    min-width: 300px;
+    min-height: 340px;
 }
+/* .portrait{
+    ;
+} */
 .semi-circle, .portrait{
     position: absolute;
     bottom: -1%;
@@ -80,11 +115,26 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.quote .big-text{
+    font-size: 3.5rem !important;
+}
 
 
 
 
-
-.project{
+/* .project{
     clip-path: polygon(0 0, 100% 0, 100% 68%, 60% 68%, 60% 100%, 0 100%);
+} */
+
+
+@media(max-width:768px){
+    .hero h1{
+        font-size: 2rem;
+        width: 100%;
+        padding: 0;
+        line-height: 42px;
+    }
+    .quote{
+        display: none;
+    }
 }

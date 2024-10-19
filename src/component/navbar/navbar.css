@@ -2,11 +2,14 @@
     width: 93%;
     background: #171717;
     border-radius: 50px;
-    color: #FBFCFD;
     padding: 10px 25px;
     position: fixed;
     top: 1%;
     margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    
 }
 .navbar ul {
     list-style: none;
@@ -25,41 +28,26 @@
     z-index: 1;
     display: flex;
     align-items: center;
+    color: #FBFCFD;
+    padding: 6px 15px;
 }
-nav span{
+.active, .navbar ul li:hover{
     background: #FD853A;
     border-radius: 50px;
-    padding: 8px 20px;
     text-align: center;
-    position: absolute;
-    height: 90%; 
-    left:  7%;
-    width: 100px;
     transition: 0.3s ease-in-out;
 }
-nav li:nth-child(1):hover ~ span, nav li:nth-child(1):active ~ span{
-    left:  7%;
-    width: 100px;
+
+.logo{
+    width: 30px;
 }
-nav li:nth-child(2):hover ~ span, nav li:nth-child(2):active ~ span{
-    left: 18%;
-}
-nav li:nth-child(3):hover ~ span, nav li:nth-child(3):active ~ span{
-    left: 30%;
-}
-nav li:nth-child(4):hover ~ span, nav li:nth-child(4):active ~ span{
-    left: 42.5%;
-    width: 160px;
-}
-nav li:nth-child(5):hover ~ span, nav li:nth-child(5):active ~ span{
-    left: 59%;
-    width: 110px;
-}
-nav li:nth-child(6):hover ~ span, nav li:nth-child(6):active ~ span{
-    left: 72%;
-    width: 100px;
-}
-nav li:nth-child(7):hover ~ span, nav li:nth-child(7):active ~ span{
-    left: 84%;
-    width: 100px;
+
+
+
+
+
+@media (max-width:1024px){
+    .navbar{
+        display: none;
+    }
 }

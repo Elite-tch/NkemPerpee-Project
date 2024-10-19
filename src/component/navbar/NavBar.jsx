@@ -10,11 +10,10 @@ export const NavBar = () => {
             <li className='active'>Home</li>
             <li>About</li>
             <li>Service</li>
-            <li><img src={Logo} alt="" /> CareerGirl</li>
+            <li><img src={Logo} alt="" className='logo' /> CareerGirl</li>
             <li>Resume</li>
             <li>Project</li>
             <li>Contact</li>
-            <span></span>
         </ul>
     </nav>
   )

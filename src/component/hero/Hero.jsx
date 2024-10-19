@@ -1,16 +1,13 @@
-
-import { NavBar } from '../navbar/NavBar'
 import './hero.css'
 import Quote from '../../assets/quote-up.png'
 
 export const Hero = () => {
   return (
     <div className='hero'>
-      <NavBar/>
-        <h1>
+        <header>
             <img src="https://github.com/Elite-tch/NkemPerpee-Project/blob/main/src/assets/hand.gif?raw=true" alt="wave" className='hand' />
-        I’m <span className="orange-text">Nkem</span>, the careerGirl Product Designer
-        </h1>
+       <h1> I’m <span className="orange-text">Nkem</span>, the careerGirl Product Designer
+        </h1></header>
 
         <div className="quote">
       <div className="top"><img src={Quote} alt="text" />
@@ -18,9 +15,9 @@ export const Hero = () => {
          demonstrated history of success. Excellent at communication
           and hove developed proficiency
          in strategy, UX research and experience design.</p>
-      
       </div>
-      <div className="bottom"><h2>2+ <span className='years'>Years <br /><span className='small-text'>Experience</span></span></h2></div>
+
+      <div className="bottom"><h2><span className='big-text'>2+</span> <span className='years'>Years <span className='small-text'>Experience</span></span></h2></div>
     </div>
     <div className="semi-circle"></div>
     <div className="portrait"><img src="https://github.com/Elite-tch/NkemPerpee-Project/blob/main/src/assets/image1.png?raw=true" alt="portrait" /></div>

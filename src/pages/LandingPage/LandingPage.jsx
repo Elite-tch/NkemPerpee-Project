@@ -1,12 +1,18 @@
 import React from 'react'
-import { Hero } from '../../component/hero/Hero'
 import { Services } from '../../component/services/Services'
+import {NavBar} from '../../component/navbar/NavBar'
+import { Hero } from '../../component/hero/hero'
+import MobileMenu from '../../component/navbar/MobileMenu'
+
 
 export const LandingPage = () => {
   return (
     <div>
-        <Hero />
+         <MobileMenu/>
+        <NavBar/>
+        <Hero/>
         <Services />
+        
     </div>
   )
 }
