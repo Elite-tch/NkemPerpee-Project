@@ -29,3 +29,50 @@ color: #7FACFF;
     box-sizing: border-box;
 
 }
+
+body {
+    overflow-x: hidden;
+  }
+  
+
+  
+/* Remove absolute positioning from portrait */
+.portrait {
+  z-index: 1;
+  position: relative;
+}
+
+/* Keep the semi-circle initially hidden */
+.semi-circle {
+  opacity: 0;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scale(0); /* Hidden state */
+  background-color: #7FACFF;
+  border-radius: 50%;
+  bottom: 0; 
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+.portrait:hover + .semi-circle {
+  opacity: 1;
+  transform: translateX(-50%) scale(1) rotate(360deg); 
+}
+
+.relative-wrapper {
+  position: relative; 
+}
+
+.hire{
+border-radius: 50px;
+  border:1px solid #FD853A;
+}
+
+.hires a:hover{
+background-color: #FD853A;
+color: aliceblue;
+border: 1px seashell;
+}
