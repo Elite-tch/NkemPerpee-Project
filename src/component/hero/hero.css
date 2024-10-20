@@ -17,13 +17,13 @@
     flex-direction: column;
     font-family: 'Escuela', sans-serif;
 }
-header{
+ /*header{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 3%;
     flex-direction: row;
-}
+}*/
 .hand{
     width: 10.26vw;
     margin: auto 0;

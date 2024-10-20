@@ -4,7 +4,7 @@ import Quote from '../../assets/quote-up.png'
 export const Hero = () => {
   return (
     <div className='hero'>
-        <header>
+        <header className='flex items-center pt-10 justify-center gap-6'>
             <img src="https://github.com/Elite-tch/NkemPerpee-Project/blob/main/src/assets/hand.gif?raw=true" alt="wave" className='hand' />
        <h1> I’m <span className="orange-text">Nkem</span>, the careerGirl Product Designer
         </h1></header>
