@@ -22,7 +22,7 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: 3%;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 .hand{
     width: 10.26vw;
