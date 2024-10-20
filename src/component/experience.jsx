@@ -9,7 +9,7 @@ function Experience() {
     }, []);
   return (
     <div className='py-8 px-8  flex flex-col justify-center'>
-     <h2 className='text-2xl  font-bold text-center'>My <span className='active  '>Work Experience</span ></h2> 
+     <h2 className='text-2xl  font-bold text-center'>My <span className='active-text  '>Work Experience</span ></h2> 
    
     <div className='flex gap-4 md:gap-40 flex-col md:flex-row justify-center w-full mx-auto pt-10 '>
     <div className='flex gap-6 justify-center md:gap-40'>

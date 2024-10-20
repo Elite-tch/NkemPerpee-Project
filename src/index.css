@@ -9,7 +9,7 @@ background-color: #171717;
 
 
 
-.active{
+.active-text{
 
     color: #FD853A;    
 }
@@ -37,13 +37,13 @@ body {
 
   
 /* Remove absolute positioning from portrait */
-.portrait {
+.portrait-about {
   z-index: 1;
   position: relative;
 }
 
 /* Keep the semi-circle initially hidden */
-.semi-circle {
+.semi-circle-about {
   opacity: 0;
   width: 300px;
   height: 300px;
@@ -57,7 +57,7 @@ body {
 }
 
 
-.portrait:hover + .semi-circle {
+.portrait-about:hover + .semi-circle-about {
   opacity: 1;
   transform: translateX(-50%) scale(1) rotate(360deg); 
 }

@@ -12,15 +12,15 @@ function About() {
    <div className='px-8 md:py-6 pt-10 pb-24 mx-auto'>
  <div className='flex justify-center items-center md:items-start  gap-4  flex-col md:flex-row   md:gap-28'>
   <div className="relative-wrapper">
-    <div className="portrait">
+    <div className="portrait-about">
       <img src="about.png" alt="portrait" className='w-64 md:w-80' />
     </div>
-    <div className="semi-circle"></div>
+    <div className="semi-circle-about"></div>
   </div>  
 
   <div className='pt-4 w-full md:w-2/5'>
     <h2 className='text-2xl font-bold'>
-      Why <span className='active'>Hire Me</span> ?
+      Why <span className='active-text'>Hire Me</span> ?
     </h2>  
     <p data-aos="fade-right" className='text-gray-500 pt-2  text-sm'>
     I am a<span className='font-bold'>certified product designer and a mentor </span>
