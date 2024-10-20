@@ -1,7 +1,7 @@
 import React from 'react'
 import { Services } from '../../component/services/Services'
 import {NavBar} from '../../component/navbar/NavBar'
-import { Hero } from '../../component/hero/hero'
+import { Hero } from '../../component/hero/Hero'
 import MobileMenu from '../../component/navbar/MobileMenu'
 
 
