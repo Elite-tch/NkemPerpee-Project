@@ -25,7 +25,7 @@ export const Hero = () => {
             <img src="hand.gif" alt="wave" className='md:w-38 w-28' />
        <h1 className='font-bold text-3xl md:text-5xl text-center'> I am <span className="orange-text">Nkem</span>, the careerGirl <br /> Product Designer
         </h1></header>
-        <div className="md:mx-">
+        <div className="lg:mx-28 md:mx-12">
   <div className="pt-9 flex  justify-ceter flex-col md:flex-row w-full ">
     
     <div>
@@ -49,7 +49,7 @@ export const Hero = () => {
         alt="portrait"
         className="absolute top-[-55%] left-[20%] md:left-[18%] lg:left-[12%] lg:w-[35%] w-[60%]"
       />
-      <div className=' blurs left-[-90%] md:left-[-82%]  lg:left-[-48%] bottom-[-20%] md:top-[20%] lg:gap-4 gap-2 relative rounded-full flex items-center mt-12 md:mt-0 lg:mt-4 justify-center py-2 lg:py-3 px-3  lg:px-6'>
+      <div className=' blurs left-[-90%] md:left-[-82%]  lg:left-[-51%] bottom-[-20%] md:top-[20%] lg:gap-4 gap-2 relative rounded-full flex items-center mt-12 md:mt-0 lg:mt-4 justify-center py-2 lg:py-3 px-3  lg:px-6'>
       <div className="flex gap-4">
       {links.map((link, index) => (
   <a
