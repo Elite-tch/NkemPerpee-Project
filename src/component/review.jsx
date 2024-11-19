@@ -15,7 +15,7 @@ function Review() {
   return (
     <div className='review mt-2 md:mt-10  pt-10'>
       <div className='text-center px-4 py-4'>
-<h2 className='text-2xl text-white font-bold'>Testimonals That Speak to <span className='active-text'>My Results</span> </h2>
+<h2 className='text-2xl md:text-3xl text-white font-bold'>Testimonals That Speak to <span className='active-text'>My Results</span> </h2>
 <p className='text-sm text-gray-500 pt-2'>You would not mind hearing what people say about me right ?, lets explore their comments. <span className='font-bold'>Enjoy</span></p>
       </div>
 <div className='bg-[#171717] py-14 mt-8'>
