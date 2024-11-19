@@ -8,8 +8,8 @@ function Experience() {
       AOS.init({ duration: 1200 });
     }, []);
   return (
-    <div className='py-8 px-8  flex flex-col justify-center'>
-     <h2 className='text-2xl  font-bold text-center'>My <span className='active-text  '>Work Experience</span ></h2> 
+    <div id='' className='py-8 px-8 mt-8 flex flex-col justify-center'>
+     <h2 className='text-2xl md:text-3xl  font-bold text-center'>My <span className='active-text  '>Work Experience</span ></h2> 
    
     <div className='flex gap-4 md:gap-40 flex-col md:flex-row justify-center w-full mx-auto pt-10 '>
     <div className='flex gap-6 justify-center md:gap-40'>
@@ -18,12 +18,12 @@ function Experience() {
    <p className='text-sm text-gray-400'>Sept 2022 - July 2024</p>
    <a href="" className='anchor text-xs' target="_blank" rel="noopener noreferrer">https://www.blaitware.com</a>
    </div>
-     <div class="flex flex-col items-center md:mt-10">
-  <div class=" border-2 p-1 border-dashed border-gray-950 rounded-full">
-<div class="md:w-5  md:h-5 h-3 w-3 bg-active  rounded-full">
+     <div className="flex flex-col items-center md:mt-10">
+  <div className=" border-2 p-1 border-dashed border-gray-950 rounded-full">
+<div className="md:w-5  md:h-5 h-3 w-3 bg-active  rounded-full">
  </div>
   </div>
-  <div class="w-1 h-32 md:h-32 border-r-2 border-dashed border-gray-950"></div>
+  <div className="w-1 h-32 md:h-32 border-r-2 border-dashed border-gray-950"></div>
 </div>
 </div>
 <div data-aos="fade-right"  className='w-72'>
@@ -42,15 +42,14 @@ function Experience() {
         <div data-aos="fade-right"  className=' md:pt-6 md:w-2/5 w-full'> 
    <h3 className='font-bold text-2xl'>Bolin Minig, China </h3>
    <p className='text-sm text-gray-400'>Oct 2023 - 2024 </p>
-   <a href="" className='anchor text-xs' target="_blank" rel="noopener noreferrer">https://www.blaitware.com</a>
-   
+
    </div>
-     <div class="flex flex-col items-center">
-  <div class=" border-2 p-1 border-dashed border-gray-950 rounded-full">
-<div class="md:w-5  md:h-5 h-3 w-3 bg-gray-950  rounded-full">
+     <div className="flex flex-col items-center">
+  <div className=" border-2 p-1 border-dashed border-gray-950 rounded-full">
+<div className="md:w-5  md:h-5 h-3 w-3 bg-gray-950  rounded-full">
  </div>
   </div>
-  <div class="w-1 h-32 md:h-32 border-r-2 border-dashed border-gray-950"></div>
+  <div className="w-1 h-32 md:h-32 border-r-2 border-dashed border-gray-950"></div>
 </div>
 </div>
 <div data-aos="fade-right"  className='w-72 md:pt-6 '>
@@ -74,12 +73,12 @@ function Experience() {
    <a href="" className='anchor text-xs' target="_blank" rel="noopener noreferrer">www.genesystechhub.com</a>
   
    </div>
-     <div class="flex flex-col items-center">
-  <div class=" border-2 p-1 border-dashed border-gray-950 rounded-full">
-<div class="md:w-5  md:h-5 h-3 w-3 bg-active  rounded-full">
+     <div className="flex flex-col items-center">
+  <div className=" border-2 p-1 border-dashed border-gray-950 rounded-full">
+<div className="md:w-5  md:h-5 h-3 w-3 bg-active  rounded-full">
  </div>
   </div>
-  <div class="w-1 h-32 md:h-52 border-r-2 md:hidden border-dashed border-gray-950"></div>
+  <div className="w-1 h-32 md:h-52 border-r-2 md:hidden border-dashed border-gray-950"></div>
 </div>
 </div>
 <div data-aos="fade-right"  className='w-72 md:pt-6  '>

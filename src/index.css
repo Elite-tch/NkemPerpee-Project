@@ -11,11 +11,11 @@ background-color: #171717;
 
 .active-text{
 
-    color: #FD853A;    
+    color:  #D92D20;    
 }
 .bg-active{
 
- background-color: #FD853A;   
+ background-color:  #D92D20;   
 }
 
 
@@ -45,17 +45,19 @@ body {
 /* Keep the semi-circle initially hidden */
 .semi-circle-about {
   opacity: 0;
-  width: 300px;
-  height: 300px;
+
+  width: 500px;
+  height: 400px; 
   position: absolute;
   left: 50%;
   transform: translateX(-50%) scale(0); /* Hidden state */
-  background-color: #7FACFF;
-  border-radius: 50%;
+  background-image: url('size.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  
   bottom: 0; 
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
-
 
 .portrait-about:hover + .semi-circle-about {
   opacity: 1;
@@ -66,13 +68,153 @@ body {
   position: relative; 
 }
 
-.hire{
+.hires a{
 border-radius: 50px;
-  border:1px solid #FD853A;
+  border:1px solid  #D92D20;
 }
 
 .hires a:hover{
-background-color: #FD853A;
+background-color:  #D92D20;
 color: aliceblue;
 border: 1px seashell;
+
+}
+
+
+.review{
+background-image: url("review.png");
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+}
+.review2{
+background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.review-hover{
+  transition: transform 0.5s ease-in-out;
+}
+
+.review-hover:hover{
+  transform: scale(0.9); 
+  background-color: white;
+}
+
+.review-hover2{
+  transition: transform 0.5s ease-in-out;
+  border:1px solid  #D92D20;
+}
+
+.review-hover2:hover{
+  transform: scale(0.9); 
+  
+  
+}
+
+.email{
+color:  #D92D20;
+background-color: rgba(253, 133, 58, 0.5);
+border-radius: 50%;
+
+}
+.email:hover{
+border: 1px solid #171717;
+  color: #171717;
+}
+
+
+.services{
+  background-image: url('/public/review.png');
+  height: 100%;
+width: 100%;
+  
+  
+  }
+  .hover{
+
+background-color: rgba(23, 23, 23, 0.9);
+  }
+
+
+  .review-hover3{
+    transition: transform 0.5s ease-in-out;
+    
+  }
+  
+  .review-hover3:hover{
+    transform: scale(0.9); 
+    
+  }
+
+  .fade-in-target {
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; 
+  }
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+
+  .work{
+
+    background-color:  #D92D20;
+color: aliceblue;
+border: 1px seashell;
+
+  }
+
+  .work:hover{
+background-color: transparent;
+color: #171717;
+border: 1px solid  #D92D20;
+  }
+
+  
+
+  
+
+   /* FontAwesomeIcon {
+      width: 64px;
+      height: 24px;
+      fill: currentColor;
+      vertical-align: middle;
+      margin: 0 20px;
+    } */
+
+    .footer:hover{
+color:  #D92D20;
+    }
+
+
+    .blurs{
+      
+      border-image-source: radial-gradient(150.36% 227.1% at 8.75% 100%, #FFFFFF 0%, rgba(201, 201, 201, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      background: #FFFFFF1A;
+      backdrop-filter: blur(15px);
+color:#fff;
+      
+
+
+    }
+
+
+    .swiper-button-next,
+.swiper-button-prev {
+  color: #fff; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 50%; 
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px; 
 }

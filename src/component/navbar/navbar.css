@@ -17,7 +17,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.navbar ul li{
+.navbar ul Link{
     font-size: 20px;
     font-weight: 500;
     line-height: 26.1px;
@@ -31,22 +31,22 @@
     color: #FBFCFD;
     padding: 6px 15px;
 }
-.active, .navbar ul li:hover{
-    background: #FD853A;
+.active, .navbar ul .block:hover{
+    background:  #D92D20;
     border-radius: 50px;
     text-align: center;
     transition: 0.3s ease-in-out;
 }
 
 .logo{
-    width: 30px;
+    width: 40px;
 }
 
 
 
 
 
-@media (max-width:1024px){
+@media (max-width:760px){
     .navbar{
         display: none;
     }
