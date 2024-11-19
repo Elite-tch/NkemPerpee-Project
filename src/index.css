@@ -82,7 +82,7 @@ border: 1px seashell;
 
 
 .review{
-background-image: url("review.png");
+background-image: url("/public/review.png");
 height: 100%;
 width: 100%;
 background-repeat: no-repeat;
