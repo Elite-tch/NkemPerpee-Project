@@ -49,7 +49,7 @@ export const Hero = () => {
         alt="portrait"
         className="absolute top-[-55%] left-[20%] md:left-[18%] lg:left-[12%] lg:w-[35%] w-[60%]"
       />
-      <div className=' blurs left-[-90%] md:left-[-82%]  lg:left-[-55%] bottom-[-20%] md:top-[20%] lg:gap-4 gap-2 relative rounded-full flex items-center mt-12 md:mt-0 lg:mt-4 justify-center py-2 lg:py-2 px-3  lg:px-3'>
+      <div className=' blurs left-[-90%] md:left-[-82%]  lg:left-[-52%] bottom-[-20%] md:top-[20%] lg:gap-4 gap-2 relative rounded-full flex items-center mt-12 md:mt-0 lg:mt-4 justify-center py-2 lg:py-2 px-3  lg:px-3'>
       <div className="flex gap-4">
       {links.map((link, index) => (
   <a
